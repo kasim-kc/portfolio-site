@@ -1,4 +1,7 @@
 const portfolioData = {
+  name: "Kasim Chhota",
+  image: "../src/assets/pic.jpg",
+  keywords: ["React Developer", "Frontend Enthusiast"],
   objective:
     "A passionate and detail-oriented Front-End Developer seeking an opportunity to contribute to impactful projects, learn continuously, and grow in a collaborative development environment. Skilled in modern web technologies and eager to bring designs to life with clean, responsive interfaces.",
 

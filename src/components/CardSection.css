@@ -104,3 +104,9 @@
 .pj-links a i {
   margin-right: 5px;
 }
+
+@media screen and (max-width: 950) {
+  .projects-container {
+    grid-template-columns: 1fr;
+  }
+}
