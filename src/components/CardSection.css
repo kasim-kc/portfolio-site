@@ -39,6 +39,12 @@
   border-radius: 20px;
 }
 
+.pj-card img {
+  max-width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
 .pj-content {
   padding: 15px 20px;
   display: flex;
@@ -78,10 +84,10 @@
 }
 
 .pj-links {
-  margin-top: 10px;
+  margin-top: 30px;
   display: flex;
   /* justify-content: center; */
-  gap: 40px;
+  gap: 50px;
 }
 
 .pj-links a {
@@ -150,7 +156,7 @@
     margin: auto;
     text-align: center;
   }
-  /* .pj-links a {
-    min-width: 80%;
-  } */
+  .pj-links a {
+    min-width: 100%;
+  }
 }

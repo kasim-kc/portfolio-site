@@ -8,37 +8,32 @@ const portfolioData = {
   education: [
     {
       id: 1,
-      course: "Bachelor of Engineering in Computer Science",
-      institution: "XYZ College of Engineering and Technology",
+      course: "Bachelor of Engineering in Information Technology",
+      institution: "Savitribai Phule Pune University",
       duration: "2021 - 2025",
-      result: "8.2 CGPA",
+      result: "8.34 CGPA",
     },
     {
       id: 2,
       course: "Higher Secondary Certificate (HSC)",
-      institution: "ABC Junior College",
+      institution: "Smt. D.G. Agrawal Memorial School",
       duration: "2019 - 2021",
-      result: "85%",
+      result: "94%",
     },
     {
       id: 3,
       course: "Secondary School Certificate (SSC)",
-      institution: "DEF High School",
+      institution: "Smt. D.G. Agrawal Memorial School",
       duration: "2018 - 2019",
-      result: "90%",
+      result: "82%",
     },
   ],
 
   skills: [
     {
-      id: 1,
-      name: "HTML5",
-      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-    },
-    {
-      id: 2,
-      name: "CSS3",
-      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      id: 4,
+      name: "React",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
     },
     {
       id: 3,
@@ -46,14 +41,19 @@ const portfolioData = {
       logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
     },
     {
-      id: 4,
-      name: "React",
-      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      id: 2,
+      name: "CSS3",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
     },
     {
       id: 5,
       name: "Tailwind CSS",
       logo: "../src/assets/tailwind-css.svg",
+    },
+    {
+      id: 1,
+      name: "HTML5",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
     },
     {
       id: 6,
@@ -75,33 +75,43 @@ const portfolioData = {
   projects: [
     {
       id: 1,
-      img: "https://placehold.co/400x170",
+      img: "../src/assets/ems.png",
       title: "Employee Management Dashboard",
       description:
         "A React-based dashboard for managing employee records with a clean UI and responsive layout.",
       techStack: ["React", "Tailwind CSS", "JavaScript"],
-      github: "https://github.com/username/employee-dashboard",
-      demo: "https://employee-dashboard-demo.netlify.app",
+      github: "https://github.com/kasim-kc/ems-dashboard-react",
+      demo: "https://ems-dashboard-react.vercel.app/",
     },
     {
       id: 2,
-      img: "https://placehold.co/400x160",
-      title: "Food Ordering Web App",
+      img: "../src/assets/blog-site.png",
+      title: "Blog Website",
       description:
-        "A food ordering platform with dynamic routing, state management, and elegant UI components.",
+        "Writer's lovable platform to showcase their talent by creating blogs and readers who read them. This site implements the CRUD functionalities.",
       techStack: ["React", "Redux", "React Router", "Tailwind CSS"],
-      github: "https://github.com/username/food-ordering-app",
-      demo: "https://food-ordering-demo.netlify.app",
+      github: "https://github.com/kasim-kc/blog-website",
+      demo: "https://api-blog-website-nz5y.onrender.com/",
     },
     {
       id: 3,
-      img: "https://placehold.co/400x160",
-      title: "Personal Portfolio Website",
+      img: "../src/assets/landing-page.png",
+      title: "HTML CSS Landing Page",
       description:
-        "A responsive and animated portfolio website showcasing my projects, skills, and background.",
-      techStack: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/username/portfolio-website",
-      demo: "https://myportfolio.netlify.app",
+        "A responsive and aesthetic-looking landing page using just HTML and CSS to apply my knowledge of learning flex. How flex container and its children works, I understood through this project.",
+      techStack: ["HTML", "CSS", "Flex"],
+      github: "https://github.com/kasim-kc/Landing-Page",
+      demo: "https://kasim-kc.github.io/Landing-Page/",
+    },
+    {
+      id: 4,
+      img: "../src/assets/grid-site.png",
+      title: "GRID Portfolio Page",
+      description:
+        "This minimal good-looking page is my practice to learning GRID display property of CSS. How to scale GRID children into multiple columns and rows and how to created great 2-D layouts was learnt.",
+      techStack: ["HTML", "CSS", "GRID"],
+      github: "https://github.com/kasim-kc/gridMiniProject",
+      demo: "https://kasim-kc.github.io/gridMiniProject/",
     },
   ],
 };
