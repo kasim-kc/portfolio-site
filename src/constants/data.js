@@ -4,18 +4,21 @@ const portfolioData = {
 
   education: [
     {
+      id: 1,
       course: "Bachelor of Engineering in Computer Science",
       institution: "XYZ College of Engineering and Technology",
       duration: "2021 - 2025",
       result: "8.2 CGPA",
     },
     {
+      id: 2,
       course: "Higher Secondary Certificate (HSC)",
       institution: "ABC Junior College",
       duration: "2019 - 2021",
       result: "85%",
     },
     {
+      id: 3,
       course: "Secondary School Certificate (SSC)",
       institution: "DEF High School",
       duration: "2018 - 2019",
@@ -25,34 +28,42 @@ const portfolioData = {
 
   skills: [
     {
+      id: 1,
       name: "HTML5",
       logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
     },
     {
+      id: 2,
       name: "CSS3",
       logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
     },
     {
+      id: 3,
       name: "JavaScript",
       logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
     },
     {
+      id: 4,
       name: "React",
       logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
     },
     {
+      id: 5,
       name: "Tailwind CSS",
       logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
     },
     {
+      id: 6,
       name: "Git",
       logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
     },
     {
+      id: 7,
       name: "GitHub",
       logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
     },
     {
+      id: 8,
       name: "VS Code",
       logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
     },
@@ -60,6 +71,7 @@ const portfolioData = {
 
   projects: [
     {
+      id: 1,
       img: "https://via.placeholder.com/300x200?text=Employee+Dashboard",
       title: "Employee Management Dashboard",
       description:
@@ -69,6 +81,7 @@ const portfolioData = {
       demo: "https://employee-dashboard-demo.netlify.app",
     },
     {
+      id: 2,
       img: "https://via.placeholder.com/300x200?text=Food+Ordering+App",
       title: "Food Ordering Web App",
       description:
@@ -78,6 +91,7 @@ const portfolioData = {
       demo: "https://food-ordering-demo.netlify.app",
     },
     {
+      id: 3,
       img: "https://via.placeholder.com/300x200?text=Portfolio+Website",
       title: "Personal Portfolio Website",
       description:

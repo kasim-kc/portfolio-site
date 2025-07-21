@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from "react";
+import portfolioData from "../constants/data";
 import "./CardSection.css";
 
-const CardSection = function ({ smCard, bigCard, data }) {
+const CardSection = function ({ smCard, bigCard }) {
   const [hasSmallCards, setHasSmallCards] = useState(false);
   const [hasBigCards, setHasBigCards] = useState(false);
+
+  const data = portfolioData;
 
   useEffect(() => {
     setHasSmallCards(smCard);
@@ -16,39 +19,17 @@ const CardSection = function ({ smCard, bigCard, data }) {
         {hasSmallCards && (
           <div className="skill-section">
             <h3>Skills</h3>
-            {/* {data.skill.map((skill) => {
-              <div className="card">
-                <div className="logo">
-                  <img src={skill.img} alt={skill.name} />
-                </div>
-                <p>{skill.name}</p>
-              </div>;
-            })} */}
             <div className="card-container">
-              <div className="card">
-                <div className="logo">
-                  <img src="https://placehold.co/50" alt="img" />
-                </div>
-                <p>REACT.JS</p>
-              </div>
-              <div className="card">
-                <div className="logo">
-                  <img src="https://placehold.co/50" alt="img" />
-                </div>
-                <p>REACT.JS</p>
-              </div>
-              <div className="card">
-                <div className="logo">
-                  <img src="https://placehold.co/50" alt="img" />
-                </div>
-                <p>REACT.JS</p>
-              </div>
-              <div className="card">
-                <div className="logo">
-                  <img src="https://placehold.co/50" alt="img" />
-                </div>
-                <p>REACT.JS</p>
-              </div>
+              {data.skills.map((skill) => {
+                return (
+                  <div className="card" key={skill.id}>
+                    <div className="logo">
+                      <img src={skill.logo} alt={skill.name} />
+                    </div>
+                    <p>{skill.name}</p>
+                  </div>
+                );
+              })}
             </div>
           </div>
         )}

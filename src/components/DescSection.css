@@ -26,6 +26,7 @@
   background-color: var(--light-gray);
   padding: 25px 30px;
   border-radius: 15px;
+  margin-bottom: 15px;
 }
 
 .edu-card h6 {
