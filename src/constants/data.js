@@ -50,7 +50,7 @@ const portfolioData = {
     {
       id: 5,
       name: "Tailwind CSS",
-      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+      logo: "../src/assets/tailwind-css.svg",
     },
     {
       id: 6,
@@ -72,7 +72,7 @@ const portfolioData = {
   projects: [
     {
       id: 1,
-      img: "https://via.placeholder.com/300x200?text=Employee+Dashboard",
+      img: "https://placehold.co/400x160",
       title: "Employee Management Dashboard",
       description:
         "A React-based dashboard for managing employee records with a clean UI and responsive layout.",
@@ -82,7 +82,7 @@ const portfolioData = {
     },
     {
       id: 2,
-      img: "https://via.placeholder.com/300x200?text=Food+Ordering+App",
+      img: "https://placehold.co/400x160",
       title: "Food Ordering Web App",
       description:
         "A food ordering platform with dynamic routing, state management, and elegant UI components.",
@@ -92,7 +92,7 @@ const portfolioData = {
     },
     {
       id: 3,
-      img: "https://via.placeholder.com/300x200?text=Portfolio+Website",
+      img: "https://placehold.co/400x160",
       title: "Personal Portfolio Website",
       description:
         "A responsive and animated portfolio website showcasing my projects, skills, and background.",

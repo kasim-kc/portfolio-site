@@ -18,7 +18,7 @@ const CardSection = function ({ smCard, bigCard }) {
       <div className="container">
         {hasSmallCards && (
           <div className="skill-section">
-            <h3>Skills</h3>
+            <h3>| Skills</h3>
             <div className="card-container">
               {data.skills.map((skill) => {
                 return (
@@ -36,88 +36,33 @@ const CardSection = function ({ smCard, bigCard }) {
 
         {hasBigCards && (
           <div className="projects-section">
-            <h3>Projects</h3>
-            {/* {data.projects.map((project) => {
-              <div className="pj-card">
-                <img src={project.img} alt={project.title} />
-                <h6>{project.title}</h6>
-                <p>{project.description}</p>
-                <div className="tech-stack">
-                  {project.stack.map((lang) => {
-                    <button>{lang}</button>;
-                  })}
-                </div>
-              </div>;
-            })} */}
+            <h3>| Projects</h3>
             <div className="projects-container">
-              <div className="pj-card">
-                <img src="https://placehold.co/450x160" alt="project-img" />
-                <div className="pj-content">
-                  <h6>TITLE</h6>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Beatae quibusdam tempora maiores exercitationem quia
-                    similique sequi at in officiis dolores assumenda,
-                    accusantium minima? Ducimus totam necessitatibus ex commodi
-                    ea possimus?
-                  </p>
-                  <div className="tech-stack">
-                    <button>React.js</button>
-                    <button>React.js</button>
-                    <button>React.js</button>
-                    <button>React.js</button>
+              {data.projects.map((project) => {
+                return (
+                  <div className="pj-card" key={project.id}>
+                    <img src={project.img} alt={project.title} />
+                    <div className="pj-content">
+                      <h6>{project.title}</h6>
+                      <p>{project.description}</p>
+                      <div className="tech-stack">
+                        {project.techStack.map((lang, idx) => {
+                          return <button key={idx + 1}>{lang}</button>;
+                        })}
+                      </div>
+                      <div className="pj-links">
+                        <a href={project.github} target="_blank">
+                          <i class="fa-brands fa-github"></i> Code
+                        </a>
+                        <a href={project.demo} target="_blank">
+                          <i class="fa-solid fa-arrow-up-right-from-square"></i>{" "}
+                          Live Demo
+                        </a>
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </div>
-              <div className="pj-card">
-                <img src="https://placehold.co/450x160" alt="project-img" />
-                <div className="pj-content">
-                  <h6>TITLE</h6>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Beatae quibusdam tempora maiores exercitationem quia
-                    similique sequi at in officiis dolores assumenda,
-                    accusantium minima? Ducimus totam necessitatibus ex commodi
-                    ea possimus?
-                  </p>
-                  <div className="tech-stack">
-                    <button>React.js</button>
-                    <button>React.js</button>
-                    <button>React.js</button>
-                    <button>React.js</button>
-                    <button>React.js</button>
-                    <button>React.js</button>
-                  </div>
-                  <div className="pj-links">
-                    <a href="#" className="gitHub">
-                      Code
-                    </a>
-                    <a href="#" className="liveLink">
-                      Live Demo
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="pj-card">
-                <img src="https://placehold.co/450x160" alt="project-img" />
-                <div className="pj-content">
-                  <h6>TITLE</h6>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Beatae quibusdam tempora maiores exercitationem quia
-                    similique sequi at in officiis dolores assumenda,
-                    accusantium minima? Ducimus totam necessitatibus ex commodi
-                    ea possimus?
-                  </p>
-                  <div className="tech-stack">
-                    <button>React.js</button>
-                    <button>React.js</button>
-                    <button>React.js</button>
-                    <button>React.js</button>
-                    <button>React.js</button>
-                  </div>
-                </div>
-              </div>
+                );
+              })}
             </div>
           </div>
         )}

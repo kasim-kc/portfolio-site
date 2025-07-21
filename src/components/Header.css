@@ -1,0 +1,68 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--viridian);
+  height: 170px;
+  border: 1px solid red;
+  font-family: var(--unique-font);
+  color: white;
+}
+
+.kasim-info {
+  padding: 10px;
+}
+
+.kasim-info .name {
+  font-size: 3rem;
+  margin-bottom: 5px;
+}
+
+.kasim-img {
+  padding: 2px 20px;
+}
+
+.kasim-img img {
+  border-radius: 30%;
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+}
+
+.nav-links-container {
+  width: 50%;
+  height: 55px;
+  background-color: var(--cambridge-blue);
+  align-self: flex-end;
+  /* border-bottom-left-radius: 30px; */
+  /* border-top-left-radius: 20px; */
+}
+
+.nav-links-container ul {
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  list-style: none;
+  font-size: 1.5rem;
+  gap: 15px;
+}
+
+.nav-links-container ul {
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  font-size: 1.5rem;
+  gap: 15px;
+}
+
+.nav-links-container ul li a {
+  text-decoration: none;
+  padding: 10px;
+  color: var(--mint-cream);
+}
+
+.nav-links-container ul li a:hover {
+  color: aqua;
+}
