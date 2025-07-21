@@ -26,14 +26,17 @@ const DescSection = ({ descPresent, education }) => {
           <>
             <h3>| Education</h3>
             {data.education.map((card) => {
-              console.log(card);
-              <div className="edu-card">
-                <h6>{card.course}</h6>
-                <p>{card.institution}</p>
-                <p>
-                  {card.duration} | {card.result}
-                </p>
-              </div>;
+              // console.log(card.course);
+
+              return (
+                <div className="edu-card" key={card.id}>
+                  <h6>{card.course}</h6>
+                  <p>{card.institution}</p>
+                  <p>
+                    {card.duration} | {card.result}
+                  </p>
+                </div>
+              );
             })}
           </>
         )}
