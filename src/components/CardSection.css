@@ -1,0 +1,90 @@
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.card-container .card {
+  height: 120px;
+  width: 130px;
+  background-color: var(--light-gray);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: max-content;
+  gap: 40px;
+}
+
+.pj-card {
+  background-color: var(--light-gray);
+  border-radius: 20px;
+}
+
+.pj-content {
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.pj-card h6 {
+  font-size: 1.1rem;
+  font-weight: 800;
+  margin-top: 10px;
+}
+
+.pj-content p {
+  font-size: 0.8rem;
+  color: #adabab;
+}
+
+.tech-stack {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.tech-stack button {
+  padding: 7px;
+  border-radius: 30px;
+  background: linear-gradient(
+    to bottom right,
+    var(--rich-gold),
+    var(--rich-gold-light)
+  );
+  border: none;
+  font-weight: 600;
+}
+
+.pj-links {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.pj-links a {
+  display: block;
+  background: linear-gradient(
+    to bottom right,
+    var(--rich-gold),
+    var(--rich-gold-light)
+  );
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 30px;
+  font-weight: 600;
+}

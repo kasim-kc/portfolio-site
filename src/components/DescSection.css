@@ -1,0 +1,48 @@
+.container {
+  /* height: max-content */
+  border: 1px solid red;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.container h3 {
+  color: var(--rich-gold);
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  /* font-weight: 700; */
+}
+
+.container article {
+  width: 100%;
+  background-color: var(--light-gray);
+  padding: 25px 30px;
+  border-radius: 15px;
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  color: #adabab;
+}
+
+.edu-card {
+  background-color: var(--light-gray);
+  padding: 25px 30px;
+  border-radius: 15px;
+}
+
+.edu-card h6 {
+  font-size: 1rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.edu-card p {
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
+
+.edu-card :nth-child(2) {
+  color: var(--rich-gold);
+}
+
+.edu-card :nth-child(3) {
+  color: #adabab;
+}

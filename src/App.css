@@ -1,0 +1,14 @@
+body {
+  background-color: var(--dark-navy);
+  color: aliceblue;
+}
+
+.main-container {
+  min-height: 100vh;
+  width: 70%;
+  background-color: var(--dark-gray);
+  border: 2px solid var(--light-gray);
+  border-radius: 5px;
+  margin: 0px auto;
+  padding: 30px;
+}
