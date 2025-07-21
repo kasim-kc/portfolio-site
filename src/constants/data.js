@@ -75,7 +75,7 @@ const portfolioData = {
   projects: [
     {
       id: 1,
-      img: "https://placehold.co/400x160",
+      img: "https://placehold.co/400x170",
       title: "Employee Management Dashboard",
       description:
         "A React-based dashboard for managing employee records with a clean UI and responsive layout.",

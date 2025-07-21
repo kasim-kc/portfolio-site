@@ -12,3 +12,18 @@ body {
   margin: 0px auto;
   padding: 30px;
 }
+
+@media screen and (max-width: 882px) {
+  .main-container {
+    min-width: 80%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .main-container {
+    min-width: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+}

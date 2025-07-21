@@ -45,19 +45,21 @@ const CardSection = function ({ smCard, bigCard }) {
                     <div className="pj-content">
                       <h6>{project.title}</h6>
                       <p>{project.description}</p>
-                      <div className="tech-stack">
-                        {project.techStack.map((lang, idx) => {
-                          return <button key={idx + 1}>{lang}</button>;
-                        })}
-                      </div>
-                      <div className="pj-links">
-                        <a href={project.github} target="_blank">
-                          <i class="fa-brands fa-github"></i> Code
-                        </a>
-                        <a href={project.demo} target="_blank">
-                          <i class="fa-solid fa-arrow-up-right-from-square"></i>{" "}
-                          Live Demo
-                        </a>
+                      <div className="link-container">
+                        <div className="tech-stack">
+                          {project.techStack.map((lang, idx) => {
+                            return <button key={idx + 1}>{lang}</button>;
+                          })}
+                        </div>
+                        <div className="pj-links">
+                          <a href={project.github} target="_blank">
+                            <i class="fa-brands fa-github"></i> Code
+                          </a>
+                          <a href={project.demo} target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>{" "}
+                            Live Demo
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>
