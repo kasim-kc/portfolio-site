@@ -1,6 +1,6 @@
 const portfolioData = {
   name: "Kasim Chhota",
-  image: "../src/assets/pic.jpg",
+  image: "src/assets/pic.jpg",
   keywords: ["React Developer", "Frontend Enthusiast"],
   objective:
     "A passionate and detail-oriented Front-End Developer seeking an opportunity to contribute to impactful projects, learn continuously, and grow in a collaborative development environment. Skilled in modern web technologies and eager to bring designs to life with clean, responsive interfaces.",
@@ -48,7 +48,7 @@ const portfolioData = {
     {
       id: 5,
       name: "Tailwind CSS",
-      logo: "../src/assets/tailwind-css.svg",
+      logo: "src/assets/tailwind-css.svg",
     },
     {
       id: 1,
@@ -75,7 +75,7 @@ const portfolioData = {
   projects: [
     {
       id: 1,
-      img: "../src/assets/ems.png",
+      img: "src/assets/ems.png",
       title: "Employee Management Dashboard",
       description:
         "A React-based dashboard for managing employee records with a clean UI and responsive layout. Hosted live on Vercel.app",
@@ -85,7 +85,7 @@ const portfolioData = {
     },
     {
       id: 2,
-      img: "../src/assets/blog-site.png",
+      img: "src/assets/blog-site.png",
       title: "Blog Website",
       description:
         "Writer's lovable platform to showcase their talent by creating blogs and readers who read them. This site implements the CRUD functionalities. Hosted live on Render",
@@ -95,7 +95,7 @@ const portfolioData = {
     },
     {
       id: 3,
-      img: "../src/assets/landing-page.png",
+      img: "src/assets/landing-page.png",
       title: "HTML CSS Landing Page",
       description:
         "A responsive and aesthetic-looking landing page using just HTML and CSS to apply my knowledge of learning flex. How flex container and its children works, I understood through this project. Hosted live on GitHub Pages.",
@@ -105,7 +105,7 @@ const portfolioData = {
     },
     {
       id: 4,
-      img: "../src/assets/grid-site.png",
+      img: "src/assets/grid-site.png",
       title: "GRID Portfolio Page",
       description:
         "This minimal good-looking page is my practice to learning GRID display property of CSS. How to scale GRID children into multiple columns and rows and how to created great 2-D layouts was learnt. Hosted live on GitHub Pages.",
