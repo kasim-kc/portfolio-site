@@ -1,12 +1,81 @@
-# React + Vite
+# Personal Portfolio - [Kasim Chhota]
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Portfolio Screenshot](./src/assets/portfolio-screenshot.png) <!-- Add a screenshot if available -->
 
-Currently, two official plugins are available:
+A sleek, minimal, and aesthetic personal portfolio website built with React.js and raw CSS, showcasing my projects, skills, and professional journey. Hosted on Netlify for seamless deployment.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 **Live Demo:** [https://your-portfolio-url.netlify.app](https://your-portfolio-url.netlify.app) <!-- Replace with your actual Netlify URL -->
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Modern UI/UX**: Clean, responsive design with attention to detail
+- **Performance Optimized**: Fast loading times and smooth animations
+- **Responsive Design**: Works flawlessly on all device sizes
+- **Project Showcase**: Elegant display of my best work with case studies
+- **Interactive Elements**: Subtle animations and hover effects for better engagement
+- **Dark/Light Mode**: Optional - if you implemented this feature
+
+## Technologies Used
+
+- **Frontend**: React.js (Vite)
+- **Styling**: Raw CSS (no CSS frameworks) for complete design control
+- **Deployment**: Netlify (with continuous deployment from GitHub)
+- **Additional Tools**:
+  - React Icons for scalable vector icons
+  - React Router for smooth navigation
+  - (Add any other libraries you used)
+
+## Key Learnings
+
+Through building this portfolio, I deepened my understanding of:
+
+- Advanced CSS techniques (Flexbox, Grid, animations, transitions)
+- React component architecture and state management
+- Responsive design principles and mobile-first approach
+- Performance optimization for React applications
+- Netlify deployment and CI/CD workflows
+- (Add any other specific learnings)
+
+## Installation
+
+To run this project locally:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/kasim-kc/portfolio-site.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd portfolio-site
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+5. Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
+
+## Project Structure
+
+```
+src/
+├── assets/          # Static assets like images, icons
+├── components/      # Reusable React components
+├── styles/          # CSS files
+├── pages/           # Page components
+├── App.js           # Main application component
+└── index.js         # Entry point
+```
+
+## Future Improvements
+
+- [ ] Add blog section
+- [ ] Implement internationalization (i18n)
+- [ ] Add more interactive elements
+- [ ] Integrate a contact form with Netlify Forms
+- (Add your own roadmap items)
+
+✨ Crafted with passion by [Kasim Chhota] - [yourwebsite.com] | [LinkedIn Profile]
