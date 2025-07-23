@@ -1,6 +1,6 @@
-import DescSection from "./components/DescSection.jsx";
-import CardSection from "./components/CardSection.jsx";
-import Header from "./components/Header.jsx";
+import DescSection from "./components/DescSection";
+import CardSection from "./components/CardSection";
+import Header from "./components/Header";
 import "./App.css";
 
 function App() {
