@@ -1,6 +1,6 @@
 .header-container {
   min-height: 40vh;
-  background: linear-gradient(to right, var(--dark-navy), #4860a4);
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -46,11 +46,20 @@
 .user-links a {
   display: block;
   padding: 15px;
-  border: 1px solid #adabab;
+  border: 1px solid rgba(212, 175, 55, 0.3);
   border-radius: 30px;
   background-color: var(--light-gray);
   color: whitesmoke;
   text-decoration: none;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.user-links a:hover {
+  background: rgba(212, 175, 55, 0.25);
+  border-color: #d4af37;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(212, 175, 55, 0.2);
 }
 
 .user-links a i {

@@ -16,17 +16,35 @@
   width: 100%;
   background-color: var(--light-gray);
   padding: 25px 30px;
+  border: 1px solid rgba(212, 175, 55, 0.2);
   border-radius: 15px;
   font-size: 0.9rem;
   line-height: 1.3rem;
   color: #adabab;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.container article:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 35px rgba(212, 175, 55, 0.1);
+  border-color: #d4af37;
 }
 
 .edu-card {
   background-color: var(--light-gray);
   padding: 25px 30px;
+  border: 1px solid rgba(212, 175, 55, 0.2);
   border-radius: 15px;
   margin-bottom: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.edu-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 35px rgba(212, 175, 55, 0.1);
+  border-color: #d4af37;
 }
 
 .edu-card h6 {

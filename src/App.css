@@ -1,16 +1,30 @@
 body {
-  background-color: var(--dark-navy);
+  /* line-height: 1.6; */
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f1419 100%);
   color: aliceblue;
 }
 
 .main-container {
-  min-height: 100vh;
+  min-height: 95vh;
   width: 70%;
   background-color: var(--dark-gray);
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.4);
   border: 2px solid var(--light-gray);
   border-radius: 5px;
   margin: 0px auto;
   padding: 30px;
+  animation: fadeInUp 0.8s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @media screen and (max-width: 882px) {
