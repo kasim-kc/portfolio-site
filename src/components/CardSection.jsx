@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import portfolioData from "../constants/data";
+import portfolioData from "../constants/data.js";
 import "./CardSection.css";
 
 const CardSection = function ({ smCard, bigCard }) {

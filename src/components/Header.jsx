@@ -1,5 +1,5 @@
 import React from "react";
-import portfolioData from "../constants/data";
+import portfolioData from "../constants/data.js";
 import "./Header.css";
 
 const Header = () => {
