@@ -66,6 +66,7 @@
 .tech-stack {
   margin-top: 15px;
   display: flex;
+  flex-wrap: wrap;
   gap: 15px;
 }
 
@@ -119,11 +120,18 @@
   }
   .link-container {
     display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    gap: 60px;
   }
+
   .pj-links {
-    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .pj-links a {
     width: max-content;
   }
 }
@@ -141,19 +149,12 @@
   }
 
   .tech-stack {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-
-  .tech-stack button {
-    min-width: 80%;
-    margin: auto;
+    justify-content: center;
   }
 
   .pj-links {
     display: grid;
     grid-template-columns: 1fr;
-    margin: auto;
     text-align: center;
   }
   .pj-links a {
