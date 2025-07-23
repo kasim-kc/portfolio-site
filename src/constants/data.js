@@ -78,8 +78,8 @@ const portfolioData = {
       img: "../src/assets/ems.png",
       title: "Employee Management Dashboard",
       description:
-        "A React-based dashboard for managing employee records with a clean UI and responsive layout.",
-      techStack: ["React", "Tailwind CSS", "JavaScript"],
+        "A React-based dashboard for managing employee records with a clean UI and responsive layout. Hosted live on Vercel.app",
+      techStack: ["React", "Tailwind CSS", "JavaScript", "Vercel"],
       github: "https://github.com/kasim-kc/ems-dashboard-react",
       demo: "https://ems-dashboard-react.vercel.app/",
     },
@@ -88,8 +88,8 @@ const portfolioData = {
       img: "../src/assets/blog-site.png",
       title: "Blog Website",
       description:
-        "Writer's lovable platform to showcase their talent by creating blogs and readers who read them. This site implements the CRUD functionalities.",
-      techStack: ["React", "Redux", "React Router", "Tailwind CSS"],
+        "Writer's lovable platform to showcase their talent by creating blogs and readers who read them. This site implements the CRUD functionalities. Hosted live on Render",
+      techStack: ["React", "Redux", "React Router", "Tailwind CSS", "Render"],
       github: "https://github.com/kasim-kc/blog-website",
       demo: "https://api-blog-website-nz5y.onrender.com/",
     },
@@ -98,7 +98,7 @@ const portfolioData = {
       img: "../src/assets/landing-page.png",
       title: "HTML CSS Landing Page",
       description:
-        "A responsive and aesthetic-looking landing page using just HTML and CSS to apply my knowledge of learning flex. How flex container and its children works, I understood through this project.",
+        "A responsive and aesthetic-looking landing page using just HTML and CSS to apply my knowledge of learning flex. How flex container and its children works, I understood through this project. Hosted live on GitHub Pages.",
       techStack: ["HTML", "CSS", "Flex"],
       github: "https://github.com/kasim-kc/Landing-Page",
       demo: "https://kasim-kc.github.io/Landing-Page/",
@@ -108,7 +108,7 @@ const portfolioData = {
       img: "../src/assets/grid-site.png",
       title: "GRID Portfolio Page",
       description:
-        "This minimal good-looking page is my practice to learning GRID display property of CSS. How to scale GRID children into multiple columns and rows and how to created great 2-D layouts was learnt.",
+        "This minimal good-looking page is my practice to learning GRID display property of CSS. How to scale GRID children into multiple columns and rows and how to created great 2-D layouts was learnt. Hosted live on GitHub Pages.",
       techStack: ["HTML", "CSS", "GRID"],
       github: "https://github.com/kasim-kc/gridMiniProject",
       demo: "https://kasim-kc.github.io/gridMiniProject/",
