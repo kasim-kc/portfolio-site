@@ -1,20 +1,48 @@
 .header-container {
   min-height: 40vh;
   background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 15px;
+  align-items: center; */
+  text-align: center;
+  /* gap: 15px; */
+  position: relative;
+  overflow: hidden;
   border: 2px solid #adabab;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   padding: 50px;
 }
 
+.header-container::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 400%;
+  height: 200%;
+  background: radial-gradient(
+    circle,
+    rgba(212, 175, 55, 0.1) 0%,
+    transparent 70%
+  );
+  animation: rotate 20s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .img-div {
   height: 200px;
   width: 200px;
   border-radius: 50%;
+  margin: 0 auto 20px;
   background-color: var(--rich-gold);
   box-shadow: 1px 1px 5px var(--rich-gold-light);
 }
@@ -29,11 +57,13 @@
 .header-container h1 {
   font-weight: 900;
   font-size: 2.1rem;
+  margin-bottom: 10px;
 }
 
 .header-container h2 {
   font-weight: 300;
   font-size: 1.2rem;
+  margin-bottom: 30px;
 }
 
 .user-links {
