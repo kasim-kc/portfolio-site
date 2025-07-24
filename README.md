@@ -1,10 +1,10 @@
 # Personal Portfolio - [Kasim Chhota]
 
-![Portfolio Screenshot](./src/assets/portfolio-screenshot.png) <!-- Add a screenshot if available -->
+![Portfolio Screenshot](../portfolio2/public/assets/portfolio-screenshot.png)
 
 A sleek, minimal, and aesthetic personal portfolio website built with React.js and raw CSS, showcasing my projects, skills, and professional journey. Hosted on Netlify for seamless deployment.
 
-🔗 **Live Demo:** [https://kasim-portfolio.netlify.app/](https://kasim-portfolio.netlify.app/) <!-- Replace with your actual Netlify URL -->
+🔗 **Live Demo:** [https://kasim-portfolio.netlify.app/](https://kasim-portfolio.netlify.app/)
 
 ## Features
 
